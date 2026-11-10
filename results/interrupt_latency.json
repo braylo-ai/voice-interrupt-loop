@@ -1,0 +1,224 @@
+{
+ "label": "SYNTHETIC: macOS `say` voices mixed with simulated echo and noise",
+ "date": "2026-11-10",
+ "machine": "arm64 Darwin 26.7.1",
+ "notes": "ref_sub uses the true echo delay and 0.8x the true echo gain (imperfect reference subtraction, not real AEC); ref_sub_dtd adds a double-talk energy gate (dtd_ratio 0.5). Latency excludes output-device buffering.",
+ "results": [
+  {
+   "vad": "silero",
+   "echo": "none",
+   "frame_ms": 32.0,
+   "min_speech_ms": 60,
+   "n_positive": 36,
+   "detected": 0,
+   "missed": 0,
+   "false_barge_in_before_onset": 36,
+   "n_negative": 6,
+   "false_barge_in_echo_only": 6,
+   "latency_ms": {
+    "p50": null,
+    "p95": null,
+    "min": null,
+    "max": null
+   },
+   "frame_compute_ms": {
+    "p50": 0.20249997032806277,
+    "p95": 0.8585910254623741
+   },
+   "rtf": 0.01956546917892072,
+   "wall_s": 10.8
+  },
+  {
+   "vad": "silero",
+   "echo": "ref_sub",
+   "frame_ms": 32.0,
+   "min_speech_ms": 60,
+   "n_positive": 36,
+   "detected": 0,
+   "missed": 0,
+   "false_barge_in_before_onset": 36,
+   "n_negative": 6,
+   "false_barge_in_echo_only": 6,
+   "latency_ms": {
+    "p50": null,
+    "p95": null,
+    "min": null,
+    "max": null
+   },
+   "frame_compute_ms": {
+    "p50": 0.18214600277133286,
+    "p95": 0.5607607425190508
+   },
+   "rtf": 0.007582240362010407,
+   "wall_s": 0.2
+  },
+  {
+   "vad": "silero",
+   "echo": "ref_sub_dtd",
+   "frame_ms": 32.0,
+   "min_speech_ms": 60,
+   "n_positive": 36,
+   "detected": 36,
+   "missed": 0,
+   "false_barge_in_before_onset": 0,
+   "n_negative": 6,
+   "false_barge_in_echo_only": 0,
+   "latency_ms": {
+    "p50": 62.00510451733135,
+    "p95": 129.1413647456793,
+    "min": 42.47600002260879,
+    "max": 162.53179199714214
+   },
+   "frame_compute_ms": {
+    "p50": 0.16720901476219296,
+    "p95": 0.5669126869179306
+   },
+   "rtf": 0.007669308002876002,
+   "wall_s": 1.1
+  },
+  {
+   "vad": "webrtc",
+   "echo": "none",
+   "frame_ms": 30.0,
+   "min_speech_ms": 60,
+   "n_positive": 36,
+   "detected": 0,
+   "missed": 0,
+   "false_barge_in_before_onset": 36,
+   "n_negative": 6,
+   "false_barge_in_echo_only": 6,
+   "latency_ms": {
+    "p50": null,
+    "p95": null,
+    "min": null,
+    "max": null
+   },
+   "frame_compute_ms": {
+    "p50": 0.009041978046298027,
+    "p95": 0.0368330511264503
+   },
+   "rtf": 0.0006226096885552626,
+   "wall_s": 0.2
+  },
+  {
+   "vad": "webrtc",
+   "echo": "ref_sub",
+   "frame_ms": 30.0,
+   "min_speech_ms": 60,
+   "n_positive": 36,
+   "detected": 0,
+   "missed": 0,
+   "false_barge_in_before_onset": 36,
+   "n_negative": 6,
+   "false_barge_in_echo_only": 6,
+   "latency_ms": {
+    "p50": null,
+    "p95": null,
+    "min": null,
+    "max": null
+   },
+   "frame_compute_ms": {
+    "p50": 0.01912500010803342,
+    "p95": 0.04845799412578344
+   },
+   "rtf": 0.0007690382720069672,
+   "wall_s": 0.1
+  },
+  {
+   "vad": "webrtc",
+   "echo": "ref_sub_dtd",
+   "frame_ms": 30.0,
+   "min_speech_ms": 60,
+   "n_positive": 36,
+   "detected": 36,
+   "missed": 0,
+   "false_barge_in_before_onset": 0,
+   "n_negative": 6,
+   "false_barge_in_echo_only": 0,
+   "latency_ms": {
+    "p50": 70.94979200791568,
+    "p95": 170.10552075575106,
+    "min": 37.58829198917374,
+    "max": 175.71383302938193
+   },
+   "frame_compute_ms": {
+    "p50": 0.02500001573935151,
+    "p95": 0.05066865414846678
+   },
+   "rtf": 0.0008847419751536067,
+   "wall_s": 0.2
+  },
+  {
+   "vad": "energy",
+   "echo": "none",
+   "frame_ms": 20.0,
+   "min_speech_ms": 60,
+   "n_positive": 36,
+   "detected": 0,
+   "missed": 0,
+   "false_barge_in_before_onset": 36,
+   "n_negative": 6,
+   "false_barge_in_echo_only": 6,
+   "latency_ms": {
+    "p50": null,
+    "p95": null,
+    "min": null,
+    "max": null
+   },
+   "frame_compute_ms": {
+    "p50": 0.004458008334040642,
+    "p95": 0.008364528184756637
+   },
+   "rtf": 0.0002858806157199946,
+   "wall_s": 0.1
+  },
+  {
+   "vad": "energy",
+   "echo": "ref_sub",
+   "frame_ms": 20.0,
+   "min_speech_ms": 60,
+   "n_positive": 36,
+   "detected": 36,
+   "missed": 0,
+   "false_barge_in_before_onset": 0,
+   "n_negative": 6,
+   "false_barge_in_echo_only": 0,
+   "latency_ms": {
+    "p50": 67.82666649320163,
+    "p95": 170.63897900632583,
+    "min": 42.454290989320725,
+    "max": 185.70162496203557
+   },
+   "frame_compute_ms": {
+    "p50": 0.014042016118764877,
+    "p95": 0.040622870437800836
+   },
+   "rtf": 0.0009991814880954515,
+   "wall_s": 0.2
+  },
+  {
+   "vad": "energy",
+   "echo": "ref_sub_dtd",
+   "frame_ms": 20.0,
+   "min_speech_ms": 60,
+   "n_positive": 36,
+   "detected": 36,
+   "missed": 0,
+   "false_barge_in_before_onset": 0,
+   "n_negative": 6,
+   "false_barge_in_echo_only": 0,
+   "latency_ms": {
+    "p50": 67.8353755234275,
+    "p95": 177.36756273952778,
+    "min": 47.58408299321309,
+    "max": 189.33608300844207
+   },
+   "frame_compute_ms": {
+    "p50": 0.01570902531966567,
+    "p95": 0.050166971050202847
+   },
+   "rtf": 0.0012141927822892236,
+   "wall_s": 0.2
+  }
+ ]
+}

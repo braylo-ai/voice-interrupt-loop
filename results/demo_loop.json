@@ -1,0 +1,41 @@
+{
+ "label": "SYNTHETIC conversation (macOS say voices); reply is a canned stub",
+ "date": "2026-11-10",
+ "stt": "faster-whisper-small-int8-cpu",
+ "vad": "silero",
+ "events": [
+  {
+   "t_ms": 2624.0,
+   "event": "endpoint"
+  },
+  {
+   "t_ms": 2624.0,
+   "event": "turn",
+   "transcript": "What is the plan for tomorrow?",
+   "stt_ms": 5898.6,
+   "reply": "Here is the plan for tomorrow. First we review the design, then we write the tests, and after lunch we ship the change to staging and watch the error rate for an hour.",
+   "reply_ms": 0.68,
+   "tts_ms": 3434.9
+  },
+  {
+   "t_ms": 4704.0,
+   "event": "barge_in",
+   "tts_played_ms": 2080.0
+  },
+  {
+   "t_ms": 6368.0,
+   "event": "endpoint"
+  },
+  {
+   "t_ms": 6368.0,
+   "event": "turn",
+   "transcript": "wait and stop",
+   "stt_ms": 3001.7,
+   "reply": "Okay, stopping.",
+   "reply_ms": 1.05,
+   "tts_ms": 3652.8
+  }
+ ],
+ "barge_onset_ms": 4640.0,
+ "interrupt_latency_ms_sim_clock": 64.0
+}
