@@ -50,7 +50,7 @@ Reading:
 - **Tuning disclosure:** the gate's noise floor was raised once (0.003 → 0.01, i.e. ~10 dB above the noise) after a first run on this same set, so these numbers are in-sample.
 
 ### STT
-From [`results/stt_small.json`](results/stt_small.json): faster-whisper small, int8, CPU, on the 36 interrupt utterances after reference subtraction: **mean WER 0.011**, 34/36 exact (the 2 misses: "can you repeat" → "do you repeat"). Latency p50 2943 ms / p95 6823 ms, **measured while a DPO fine-tune was running on the same machine**, so these latencies are inflated and should not be quoted as this model's speed. Re-run `python scripts/bench_stt.py` on an idle machine.
+From [`results/stt_small.json`](results/stt_small.json): faster-whisper small, int8, CPU, on the 36 interrupt utterances after reference subtraction: **mean WER 0.011**, 34/36 exact (the 2 misses: "can you repeat" → "do you repeat"). Latency **p50 1511 ms / p95 3416 ms, real-time factor 0.91** (re-run on 2026-11-10 with no ML jobs running, but two Chrome processes were using ~2 cores, so this is still not a clean idle-machine figure). An earlier run taken during a DPO fine-tune gave p50 2943 ms and was replaced. Treat these as an upper bound for `small` int8 on CPU; the loop's budget is dominated by STT after the endpoint.
 
 ### End-to-end demo
 [`results/demo_loop.json`](results/demo_loop.json): one scripted turn ("What is the plan for tomorrow?") → STT → canned reply → TTS → user says "Wait, stop." 2 s into the answer. Barge-in fired **64 ms** after onset (simulated sample clock); the interruption was transcribed as "wait and stop". STT/TTS compute times in that file were also measured under the same CPU contention.

@@ -7,17 +7,17 @@
  "mean_wer": 0.011111111111111112,
  "exact_match_rate": 0.9444444444444444,
  "latency_ms": {
-  "p50": 2943.100999982562,
-  "p95": 6823.040103510721
+  "p50": 1511.1839165037964,
+  "p95": 3416.2643440358806
  },
- "rtf_mean": 1.725220664886348,
+ "rtf_mean": 0.9078827390494865,
  "rows": [
   {
    "file": "pos_000.wav",
    "ref": "Wait, stop.",
    "hyp": "Wait. Stop.",
    "wer": 0.0,
-   "latency_ms": 2978.18749997532,
+   "latency_ms": 1337.4289170023985,
    "audio_s": 1.536,
    "echo_db": -12
   },
@@ -26,7 +26,7 @@
    "ref": "Wait, stop.",
    "hyp": "Wait. Stop.",
    "wer": 0.0,
-   "latency_ms": 2676.99129198445,
+   "latency_ms": 1194.450708979275,
    "audio_s": 1.536,
    "echo_db": -20
   },
@@ -35,7 +35,7 @@
    "ref": "Wait, stop.",
    "hyp": "Wait, stop.",
    "wer": 0.0,
-   "latency_ms": 6869.804290996399,
+   "latency_ms": 1195.458707981743,
    "audio_s": 1.6591875,
    "echo_db": -12
   },
@@ -44,7 +44,7 @@
    "ref": "Wait, stop.",
    "hyp": "Wait, stop.",
    "wer": 0.0,
-   "latency_ms": 7027.644333022181,
+   "latency_ms": 1234.7048749797978,
    "audio_s": 1.6591875,
    "echo_db": -20
   },
@@ -53,7 +53,7 @@
    "ref": "Wait, stop.",
    "hyp": "Wait, stop.",
    "wer": 0.0,
-   "latency_ms": 3525.1531249959953,
+   "latency_ms": 1375.832082994748,
    "audio_s": 1.52375,
    "echo_db": -12
   },
@@ -62,7 +62,7 @@
    "ref": "Wait, stop.",
    "hyp": "Wait, stop!",
    "wer": 0.0,
-   "latency_ms": 3684.483041986823,
+   "latency_ms": 1352.2145000169985,
    "audio_s": 1.52375,
    "echo_db": -20
   },
@@ -71,7 +71,7 @@
    "ref": "Hold on a second.",
    "hyp": "Hold on a second.",
    "wer": 0.0,
-   "latency_ms": 2375.653124996461,
+   "latency_ms": 1271.960333979223,
    "audio_s": 2.1203125,
    "echo_db": -12
   },
@@ -80,7 +80,7 @@
    "ref": "Hold on a second.",
    "hyp": "Hold on a second.",
    "wer": 0.0,
-   "latency_ms": 3557.9188329866156,
+   "latency_ms": 1202.6381670148112,
    "audio_s": 2.1203125,
    "echo_db": -20
   },
@@ -89,7 +89,7 @@
    "ref": "Hold on a second.",
    "hyp": "Hold on a second.",
    "wer": 0.0,
-   "latency_ms": 2908.014499989804,
+   "latency_ms": 1868.122875050176,
    "audio_s": 1.639,
    "echo_db": -12
   },
@@ -98,7 +98,7 @@
    "ref": "Hold on a second.",
    "hyp": "Hold on a second.",
    "wer": 0.0,
-   "latency_ms": 3646.261207992211,
+   "latency_ms": 1517.9897079942748,
    "audio_s": 1.639,
    "echo_db": -20
   },
@@ -107,7 +107,7 @@
    "ref": "Hold on a second.",
    "hyp": "Hold on a second.",
    "wer": 0.0,
-   "latency_ms": 4182.308583986014,
+   "latency_ms": 1563.3794590248726,
    "audio_s": 1.6041875,
    "echo_db": -12
   },
@@ -116,7 +116,7 @@
    "ref": "Hold on a second.",
    "hyp": "Hold on a second.",
    "wer": 0.0,
-   "latency_ms": 4499.369416967966,
+   "latency_ms": 1346.7379999929108,
    "audio_s": 1.6041875,
    "echo_db": -20
   },
@@ -125,7 +125,7 @@
    "ref": "No, that's wrong.",
    "hyp": "No, that's wrong.",
    "wer": 0.0,
-   "latency_ms": 4335.710084007587,
+   "latency_ms": 2032.306666020304,
    "audio_s": 1.865375,
    "echo_db": -12
   },
@@ -134,7 +134,7 @@
    "ref": "No, that's wrong.",
    "hyp": "No, that's wrong.",
    "wer": 0.0,
-   "latency_ms": 4517.650583002251,
+   "latency_ms": 1634.3861250206828,
    "audio_s": 1.865375,
    "echo_db": -20
   },
@@ -143,7 +143,7 @@
    "ref": "No, that's wrong.",
    "hyp": "No, that's wrong.",
    "wer": 0.0,
-   "latency_ms": 2301.868167007342,
+   "latency_ms": 1602.020500053186,
    "audio_s": 1.793375,
    "echo_db": -12
   },
@@ -152,7 +152,7 @@
    "ref": "No, that's wrong.",
    "hyp": "No, that's wrong.",
    "wer": 0.0,
-   "latency_ms": 2541.458582971245,
+   "latency_ms": 1488.0316669587046,
    "audio_s": 1.793375,
    "echo_db": -20
   },
@@ -161,7 +161,7 @@
    "ref": "No, that's wrong.",
    "hyp": "No, that's wrong.",
    "wer": 0.0,
-   "latency_ms": 1891.7129170149565,
+   "latency_ms": 1958.755666972138,
    "audio_s": 1.8793125,
    "echo_db": -12
   },
@@ -170,7 +170,7 @@
    "ref": "No, that's wrong.",
    "hyp": "No, that's wrong.",
    "wer": 0.0,
-   "latency_ms": 1485.3907079668716,
+   "latency_ms": 1858.3056249772198,
    "audio_s": 1.8793125,
    "echo_db": -20
   },
@@ -179,7 +179,7 @@
    "ref": "Actually, can you repeat that?",
    "hyp": "Actually, do you repeat that?",
    "wer": 0.2,
-   "latency_ms": 1396.8020000029355,
+   "latency_ms": 2053.464792028535,
    "audio_s": 3.020875,
    "echo_db": -12
   },
@@ -188,7 +188,7 @@
    "ref": "Actually, can you repeat that?",
    "hyp": "Actually, do you repeat that?",
    "wer": 0.2,
-   "latency_ms": 1517.710707965307,
+   "latency_ms": 3198.6811659880914,
    "audio_s": 3.020875,
    "echo_db": -20
   },
@@ -197,7 +197,7 @@
    "ref": "Actually, can you repeat that?",
    "hyp": "Actually, can you repeat that?",
    "wer": 0.0,
-   "latency_ms": 3184.7502079908736,
+   "latency_ms": 8864.957500016317,
    "audio_s": 2.403875,
    "echo_db": -12
   },
@@ -206,7 +206,7 @@
    "ref": "Actually, can you repeat that?",
    "hyp": "Actually, can you repeat that?",
    "wer": 0.0,
-   "latency_ms": 2106.6784170106985,
+   "latency_ms": 3941.5412500384264,
    "audio_s": 2.403875,
    "echo_db": -20
   },
@@ -215,7 +215,7 @@
    "ref": "Actually, can you repeat that?",
    "hyp": "Actually, can you repeat that?",
    "wer": 0.0,
-   "latency_ms": 3653.2264999696054,
+   "latency_ms": 2942.1747499727644,
    "audio_s": 2.621625,
    "echo_db": -12
   },
@@ -224,7 +224,7 @@
    "ref": "Actually, can you repeat that?",
    "hyp": "Actually, can you repeat that?",
    "wer": 0.0,
-   "latency_ms": 2361.6165000130422,
+   "latency_ms": 3241.172042035032,
    "audio_s": 2.621625,
    "echo_db": -20
   },
@@ -233,7 +233,7 @@
    "ref": "Sorry, I have a question.",
    "hyp": "Sorry, I have a question.",
    "wer": 0.0,
-   "latency_ms": 2142.4240830237977,
+   "latency_ms": 1323.1176249682903,
    "audio_s": 2.2445,
    "echo_db": -12
   },
@@ -242,7 +242,7 @@
    "ref": "Sorry, I have a question.",
    "hyp": "Sorry, I have a question.",
    "wer": 0.0,
-   "latency_ms": 1989.1217079712078,
+   "latency_ms": 1194.543000019621,
    "audio_s": 2.2445,
    "echo_db": -20
   },
@@ -251,7 +251,7 @@
    "ref": "Sorry, I have a question.",
    "hyp": "Sorry, I have a question.",
    "wer": 0.0,
-   "latency_ms": 3448.0514579918236,
+   "latency_ms": 1205.8202080079354,
    "audio_s": 2.1666875,
    "echo_db": -12
   },
@@ -260,7 +260,7 @@
    "ref": "Sorry, I have a question.",
    "hyp": "Sorry, I have a question.",
    "wer": 0.0,
-   "latency_ms": 2470.4676250112243,
+   "latency_ms": 1339.399249991402,
    "audio_s": 2.1666875,
    "echo_db": -20
   },
@@ -269,7 +269,7 @@
    "ref": "Sorry, I have a question.",
    "hyp": "Sorry, I have a question.",
    "wer": 0.0,
-   "latency_ms": 6807.452041015495,
+   "latency_ms": 1500.4558749496937,
    "audio_s": 2.2046875,
    "echo_db": -12
   },
@@ -278,7 +278,7 @@
    "ref": "Sorry, I have a question.",
    "hyp": "Sorry, I have a question.",
    "wer": 0.0,
-   "latency_ms": 6428.584082983434,
+   "latency_ms": 1527.3119170451537,
    "audio_s": 2.2046875,
    "echo_db": -20
   },
@@ -287,7 +287,7 @@
    "ref": "Okay, stop talking.",
    "hyp": "Okay, stop talking.",
    "wer": 0.0,
-   "latency_ms": 5168.766749964561,
+   "latency_ms": 1504.378125013318,
    "audio_s": 2.69575,
    "echo_db": -12
   },
@@ -296,7 +296,7 @@
    "ref": "Okay, stop talking.",
    "hyp": "Okay, stop talking.",
    "wer": 0.0,
-   "latency_ms": 5558.863041980658,
+   "latency_ms": 1278.0217499821447,
    "audio_s": 2.69575,
    "echo_db": -20
   },
@@ -305,7 +305,7 @@
    "ref": "Okay, stop talking.",
    "hyp": "Okay, stop talking.",
    "wer": 0.0,
-   "latency_ms": 2165.3275419957936,
+   "latency_ms": 1228.4199169953354,
    "audio_s": 2.15775,
    "echo_db": -12
   },
@@ -314,7 +314,7 @@
    "ref": "Okay, stop talking.",
    "hyp": "Okay, stop talking.",
    "wer": 0.0,
-   "latency_ms": 1815.5884580337442,
+   "latency_ms": 1585.47145803459,
    "audio_s": 2.15775,
    "echo_db": -20
   },
@@ -323,7 +323,7 @@
    "ref": "Okay, stop talking.",
    "hyp": "Okay, stop talking.",
    "wer": 0.0,
-   "latency_ms": 1801.6297499998473,
+   "latency_ms": 1743.3380000293255,
    "audio_s": 2.1809375,
    "echo_db": -12
   },
@@ -332,7 +332,7 @@
    "ref": "Okay, stop talking.",
    "hyp": "Okay, stop talking.",
    "wer": 0.0,
-   "latency_ms": 2570.888832968194,
+   "latency_ms": 1708.7764160241932,
    "audio_s": 2.1809375,
    "echo_db": -20
   }
